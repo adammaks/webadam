@@ -4,23 +4,23 @@
 }
 @font-face{
   font-family: logo;
-  src: url('/fonts/logo.ttf');
+  src: url('../fonts/logo.ttf');
 }
 @font-face{
   font-family: url;
-  src: url('/fonts/url.ttf');
+  src: url('../fonts/url.ttf');
 }
 @font-face{
   font-family: text;
-  src: url('/fonts/text.ttf');
+  src: url('../fonts/text.ttf');
 }
 @font-face{
   font-family: text2;
-  src: url('/fonts/text2.ttf');
+  src: url('../fonts/text2.ttf');
 }
 .header{
   height: 100vh;
-  background: url('/img/back.jpg') no-repeat;
+  background: url('../img/back.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -40,7 +40,7 @@
   height: 50px;
   margin-top: 40px;
   margin-left: 40px;
-  background: url('/img/logo.png') no-repeat;
+  background: url('../img/logo.png') no-repeat;
   background-size: cover;
   align-self: start;
   justify-self: start;
